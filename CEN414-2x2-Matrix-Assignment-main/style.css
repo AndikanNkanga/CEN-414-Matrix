@@ -1,0 +1,16 @@
+body {
+  padding: 40px 80px;
+  font-size: 40px;
+  font-family: "Helvetica", sans-serif;
+}
+div.matrix {
+  display: grid;
+  width: 120px;
+  grid-template-columns: auto auto;
+  text-align: center;
+  border-right: 2px solid rgb(185, 57, 57);
+  border-left: 2px solid rgb(185, 57, 57);
+}
+.mat-element {
+  padding: 10px;
+}
